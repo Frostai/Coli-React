@@ -1,0 +1,38 @@
+{
+  "name": "coli",
+  "version": "1.0.0",
+  "description": "Coli React App",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack --config webpack.prod.config.js",
+    "start": "webpack-dev-server",
+    "babel": "babel app --out-dir libs --source-maps inline",
+    "browserify": "browserify libs/index.js -p [ minifyify --no-map --uglify [ --mangle [ 'toplevel' ] ] ] > libs/bundle.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "Coli React App"
+  },
+  "author": "Jose Tristani",
+  "license": "ISC",
+  "dependencies": {
+    "react": "^16.0.0",
+    "react-dom": "^16.0.0",
+    "uglify-js": "^3.1.4"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-es2016": "^6.24.1",
+    "babel-preset-latest": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "html-webpack-plugin": "^2.30.1",
+    "mangle": "^1.1.3",
+    "minifyify": "^7.3.5",
+    "webpack": "^3.8.1",
+    "webpack-dev-server": "^2.9.3",
+    "webpack-merge": "^4.1.0"
+  }
+}
