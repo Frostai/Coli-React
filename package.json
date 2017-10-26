@@ -16,8 +16,19 @@
   "author": "Jose Tristani",
   "license": "ISC",
   "dependencies": {
+    "a-csv": "^2.0.0",
+    "bootstrap-material-design": "^4.0.0-beta.4",
+    "css-loader": "^0.28.7",
+    "csv-to-array": "^1.0.2",
+    "csvtojson": "^1.1.9",
+    "event-stream": "^3.3.4",
+    "json-loader": "^0.5.7",
+    "material-ui": "^0.19.4",
     "react": "^16.0.0",
     "react-dom": "^16.0.0",
+    "react-dropdown": "^1.3.2",
+    "react-file-reader": "^1.1.3",
+    "request": "^2.83.0",
     "uglify-js": "^3.1.4"
   },
   "devDependencies": {
@@ -28,6 +39,8 @@
     "babel-preset-es2016": "^6.24.1",
     "babel-preset-latest": "^6.24.1",
     "babel-preset-react": "^6.24.1",
+    "csv-loader": "^2.1.1",
+    "fs": "0.0.1-security",
     "html-webpack-plugin": "^2.30.1",
     "mangle": "^1.1.3",
     "minifyify": "^7.3.5",

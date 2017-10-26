@@ -1,10 +1,16 @@
 import React from 'react';
 import Thinking from './Thinking';
+import Comparison from './Comparison';
+import ProductsTable from './ProductsTable';
 //
-export default class Layout extends React.Component {
+export default class ColiLayout extends React.Component {
     constructor(props) {
         super(props);
-        this.state = { thinking: 'thinking-from-pr'};
+        this.state = { 
+            thinking: 'thinking-from-pr',
+            comparison: [],
+            products: []
+        };
     }
     // This handler is passed to the Thinking Component as onThinkingChange
     handleThinkingChange(e) {
@@ -13,13 +19,17 @@ export default class Layout extends React.Component {
         this.setState( { thinking: e } );
     }
 
+    calculate() {
+
+    }
+
     render() {
         return (
             <div>
                 <Thinking onThinkingChange={this.handleThinkingChange.bind(this)} 
-                thinking={this.state.thinking} />
-                <h1> {this.state.thinking} </h1>
-                <h1> {this.state.thinking} </h1>
+                    thinking={this.state.thinking} />
+                <Comparison data={this.state.comparison}/>
+                <ProductsTable products={this.state.products}/>
 
             </div>
         );

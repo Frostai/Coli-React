@@ -1,10 +1,23 @@
 import React from 'react';
+import LocationSelect from './LocationSelectField';
 
 export default class Thinking extends React.Component {
     constructor(props) {
         super(props);
-        this.state = { thinking: props.thinking };
+        this.state = { 
+            thinking: props.thinking,
+            locations: this.getLocations()
+        };
         this.handleThinkingChange = this.handleThinkingChange.bind(this);
+        
+    }
+    getLocations() {
+        var options = [];
+        for(var i = 0; i < this.props.locations.length ; i++) {
+            options[i] = { value: i, state: this.props.locations[i][3] } ;
+            //console.log(options[i]);
+        }
+        return options;
     }
 
     handleThinkingChange(e) {
@@ -31,6 +44,9 @@ export default class Thinking extends React.Component {
                     onChange={this.handleThinkingChange}
                 />
                 <label htmlFor="thinking-to-pr">Estoy pensando mudarme a Puerto Rico I am thinking of moving to Puerto Rico</label>
+
+                <LocationSelect options={this.state.locations}
+                    value={this.state.locations[0]} placeholder="Select a location" />
             </div>
         );
     }

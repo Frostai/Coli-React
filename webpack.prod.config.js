@@ -18,6 +18,18 @@ module.exports = {
                 test: /\.js$/,
                 exclude: /node_modules/,
                 loader: 'babel-loader'
+            }, {
+                test: /\.css$/,
+                loader: "style-loader!css-loader"
+            },
+            {
+                test: /\.csv$/,
+                loader: 'csv-loader',
+                options: {
+                    dynamicTyping: true,
+                    header: true,
+                    skipEmptyLines: true
+                }
             }
         ]
     },
@@ -32,7 +44,7 @@ module.exports = {
             }
         }),
         new webpack.optimize.CommonsChunkPlugin(
-            { name:"vendor", filename:"vendor.bundle.js"}
+            { name: "vendor", filename: "vendor.bundle.js" }
         ),
         new webpack.optimize.UglifyJsPlugin({
             compress: {

@@ -1,0 +1,307 @@
+CITY CODE,STATE,METRO/MICRO,URBAN AREA AND STATE,COMPOSITE INDEX, GROCERY ITEMS,HOUSING,UTILITIES,TRANSPORTATION,HEALTH CARE,MISC. GOODSAND SERVICES
+01-11500-100,Alabama,Anniston-Oxford-Jacksonville AL Metro,Anniston-Calhoun County AL,87.3,96.1,72.7,98.1,88.6,79.9,93.2
+01-12220-125,Alabama,Auburn-Opelika AL Metro,Auburn-Opelika AL,95.5,103.3,79.3,93.0,91.3,87.9,109.8
+01-13820-200,Alabama,Birmingham-Hoover AL Metro,Birmingham AL,91.8,101.7,80.3,96.1,91.5,84.3,97.2
+01-19460-235,Alabama,Decatur AL Metro,Decatur-Hartselle AL,87.9,96.7,68.0,109.0,90.1,88.8,93.7
+01-20020-250,Alabama,Dothan AL Metro,Dothan AL,86.3,99.6,75.4,88.9,90.0,83.7,88.0
+01-22520-300,Alabama,Florence-Muscle Shoals AL Metro,Florence AL,91.0,95.4,78.3,101.2,92.3,85.0,97.2
+01-26620-500,Alabama,Huntsville AL Metro,Huntsville AL,92.0,96.8,74.4,101.4,96.6,95.4,100.1
+01-33660-600,Alabama,Mobile AL Metro,Mobile AL,92.1,102.7,76.6,107.0,95.5,87.7,95.6
+01-33860-700,Alabama,Montgomery AL Metro,Montgomery AL,93.9,99.4,87.7,105.8,91.2,80.5,95.9
+02-11260-100,Alaska,Anchorage AK Metro,Anchorage AK,132.4,123.2,164.9,103.8,116.1,140.9,122.0
+02-21820-300,Alaska,Fairbanks AK Metro,Fairbanks AK,135.4,120.8,122.0,235.2,126.1,150.1,122.8
+02-27940-400,Alaska,Juneau AK Micro,Juneau AK,131.5,128.8,153.4,136.1,125.5,150.3,111.4
+02-88888-550,Alaska,NonMetro US,Kodiak AK,136.8,137.0,155.4,146.3,140.0,138.3,115.9
+04-22380-300,Arizona,Flagstaff AZ Metro,Flagstaff AZ,117.1,109.8,142.0,111.6,100.6,110.9,107.5
+04-29420-150,Arizona,Lake Havasu City-Kingman AZ Metro,Bullhead City AZ,92.9,95.2,85.8,76.9,103.2,99.4,98.6
+04-29420-400,Arizona,Lake Havasu City-Kingman AZ Metro,Lake Havasu City AZ,102.0,98.3,108.0,103.3,105.4,106.4,96.1
+04-38060-600,Arizona,Phoenix-Mesa-Scottsdale AZ Metro,Phoenix AZ,95.7,97.7,95.4,95.3,100.3,97.7,93.3
+04-39140-650,Arizona,Prescott AZ Metro,Prescott-Prescott Valley AZ,96.9,94.6,104.0,93.1,99.0,95.8,92.2
+04-43420-725,Arizona,Sierra Vista-Douglas AZ Metro,Sierra Vista AZ,95.7,93.8,93.9,103.9,99.9,94.6,94.1
+04-46060-850,Arizona,Tucson AZ Metro,Tucson AZ,93.9,96.8,84.1,91.9,97.0,105.5,99.2
+04-49740-900,Arizona,Yuma AZ Metro,Yuma AZ,100.5,105.8,88.6,119.9,97.1,95.4,104.5
+05-22220-300,Arkansas,Fayetteville-Springdale-Rogers AR-MO Metro,Fayetteville AR,89.3,93.4,77.7,103.6,93.7,91.4,91.2
+05-26300-500,Arkansas,Hot Springs AR Metro,Hot Springs AR,92.1,97.2,77.2,102.2,90.1,90.8,100.7
+05-27860-600,Arkansas,Jonesboro AR Metro,Jonesboro AR,87.4,92.5,77.4,92.8,88.0,86.0,92.3
+05-30780-125,Arkansas,Little Rock-North Little Rock-Conway AR Metro,Conway AR,96.0,98.2,81.7,88.0,95.6,90.9,111.0
+05-30780-700,Arkansas,Little Rock-North Little Rock-Conway AR Metro,Little Rock-North Little Rock AR,96.4,93.8,92.4,113.7,94.3,85.0,97.9
+06-11244-620,California,Anaheim-Santa Ana-Irvine CA Metro Div.,Orange County CA,149.1,107.2,246.6,117.7,131.2,107.0,104.7
+06-12540-100,California,Bakersfield CA Metro,Bakersfield CA,107.0,105.9,103.2,122.1,119.9,104.3,101.4
+06-23420-250,California,Fresno CA Metro,Fresno CA,107.1,104.4,100.7,132.1,108.0,100.7,106.3
+06-31084-500,California,Los Angeles-Long Beach-Glendale CA Metro Div.,Los Angeles-Long Beach CA,139.1,106.1,212.0,114.0,127.5,109.9,106.1
+06-33700-540,California,Modesto CA Metro,Modesto CA,109.2,101.6,118.2,112.2,117.0,106.9,101.1
+06-36084-600,California,Oakland-Hayward-Berkeley CA Metro Div.,Oakland CA,145.9,128.2,226.8,105.1,118.4,115.2,110.5
+06-40900-720,California,Sacramento-Roseville-Arden-Arcade CA Metro,Sacramento CA,115.0,116.2,138.1,77.0,118.6,98.8,107.2
+06-41740-760,California,San Diego-Carlsbad CA Metro,San Diego CA,143.5,108.0,227.1,122.0,125.7,111.2,103.7
+06-41884-800,California,San Francisco-Redwood City-South San Francisco CA Metro Div.,San Francisco CA,174.7,126.1,319.7,106.2,124.5,118.6,117.7
+06-44700-900,California,Stockton-Lodi CA Metro,Stockton CA,111.2,117.6,115.9,113.7,119.8,100.5,101.6
+06-44700-930,California,Stockton-Lodi CA Metro,Tracy CA,124.6,115.3,165.2,112.1,114.0,102.8,104.2
+06-46020-940,California,Truckee-Grass Valley CA Micro,Truckee-Nevada County CA,156.5,132.8,235.3,134.2,142.6,120.6,115.0
+08-17820-200,Colorado,Colorado Springs CO Metro,Colorado Springs CO,96.0,92.9,100.1,86.6,96.1,102.3,95.8
+08-19740-300,Colorado,Denver-Aurora-Lakewood CO Metro,Denver CO,109.3,98.0,129.8,95.2,100.1,107.2,104.6
+08-24300-500,Colorado,Grand Junction CO Metro,Grand Junction CO,97.4,94.9,101.2,86.4,96.3,105.4,98.0
+08-39380-800,Colorado,Pueblo CO Metro,Pueblo CO,85.7,95.5,70.9,84.0,93.5,95.2,90.7
+08-88888-470,Colorado,NonMetro US,Glenwood Springs CO,118.1,101.2,151.2,84.8,107.7,115.3,111.7
+08-88888-700,Colorado,NonMetro US,Gunnison CO,105.9,99.4,122.6,89.7,100.3,99.0,102.3
+09-14860-800,Connecticut,Bridgeport-Stamford-Norwalk CT Metro,Stamford CT,147.1,128.1,210.9,130.4,108.5,114.8,123.9
+09-25540-400,Connecticut,Hartford-West Hartford-East Hartford CT Metro,Hartford CT,125.0,128.9,134.4,128.4,112.0,118.4,119.9
+09-35300-620,Connecticut,New Haven-Milford CT Metro,New Haven CT,124.6,130.4,144.5,100.8,106.9,114.1,120.6
+10-20100-500,Delaware,Dover DE Metro,Dover DE,99.8,108.1,83.9,114.2,101.2,101.4,104.6
+10-48864-800,Delaware,Wilmington DE-MD-NJ Metro Div.,Wilmington DE,106.2,105.4,109.1,110.0,99.2,101.7,106.2
+11-47894-750,District of Columbia,Washington-Arlington-Alexandria DC-VA-MD-WV Metro Div.,Washington-Arlington-Alexandria DC-VA,145.9,110.0,248.7,96.5,111.7,94.3,107.4
+12-15980-190,Florida,Cape Coral-Fort Myers FL Metro,Cape Coral-Fort Myers FL,101.2,111.0,86.8,93.3,109.7,100.4,108.9
+12-19660-210,Florida,Deltona-Daytona Beach-Ormond Beach FL Metro,Daytona Beach FL,95.0,103.1,82.3,100.4,96.5,96.0,100.3
+12-19660-625,Florida,Deltona-Daytona Beach-Ormond Beach FL Metro,Palm Coast-Flagler County FL,94.4,106.7,79.2,94.5,98.4,96.0,100.7
+12-22744-240,Florida,Fort Lauderdale-Pompano Beach-Deerfield Beach FL Metro Div.,Fort Lauderdale FL,114.8,105.2,145.6,96.3,111.3,98.6,101.5
+12-23540-300,Florida,Gainesville FL Metro,Gainesville FL,96.7,101.9,92.1,98.8,102.3,100.1,95.2
+12-27260-440,Florida,Jacksonville FL Metro,Jacksonville FL,98.9,102.7,90.0,109.5,101.1,86.4,102.4
+12-33124-500,Florida,Miami-Miami Beach-Kendall FL Metro Div.,Miami-Dade County FL,112.2,108.8,128.7,96.9,112.6,104.3,105.0
+12-35840-760,Florida,North Port-Sarasota-Bradenton FL Metro,Sarasota FL,103.2,103.5,105.1,103.3,101.0,109.8,101.2
+12-36740-600,Florida,Orlando-Kissimmee-Sanford FL Metro,Orlando FL,98.9,104.8,95.8,97.6,101.1,94.6,99.3
+12-37860-640,Florida,Pensacola-Ferry Pass-Brent FL Metro,Pensacola FL,94.0,109.0,75.8,84.1,96.2,95.8,105.5
+12-39460-680,Florida,Punta Gorda FL Metro,Punta Gorda-Charlotte Co FL,93.8,98.1,79.2,100.3,98.7,105.4,99.1
+12-42680-850,Florida,Sebastian-Vero Beach FL Metro,Vero Beach-Indian River FL,100.1,110.8,86.1,123.8,95.7,97.8,101.9
+12-45300-840,Florida,Tampa-St. Petersburg-Clearwater FL Metro,Tampa FL,91.6,97.5,78.1,100.1,99.7,90.9,95.1
+13-10500-070,Georgia,Albany GA Metro,Albany GA,90.5,105.0,74.2,93.0,95.3,98.6,94.6
+13-12060-150,Georgia,Atlanta-Sandy Springs-Roswell GA Metro,Atlanta GA,100.4,104.8,98.6,92.7,104.3,102.2,100.8
+13-12060-525,Georgia,Atlanta-Sandy Springs-Roswell GA Metro,Fayetteville-Fayette County GA,93.4,100.9,79.9,88.0,94.7,105.2,101.6
+13-12060-740,Georgia,Atlanta-Sandy Springs-Roswell GA Metro,Marietta GA,94.1,101.3,87.5,90.6,91.3,101.1,98.1
+13-12260-200,Georgia,Augusta-Richmond County GA-SC Metro,Augusta-Aiken GA-SC,88.8,96.9,73.7,89.5,85.8,94.4,98.7
+13-17980-300,Georgia,Columbus GA-AL Metro,Columbus GA,90.0,102.3,76.7,65.3,87.9,112.1,102.1
+13-19140-375,Georgia,Dalton GA Metro,Dalton GA,90.5,98.9,73.4,98.2,96.7,94.7,96.4
+13-20140-500,Georgia,Dublin GA Micro,Dublin-Laurens County GA,90.2,96.6,77.5,101.1,90.5,85.4,95.6
+13-42340-800,Georgia,Savannah GA Metro,Savannah GA,91.1,97.5,68.6,108.8,98.2,98.7,98.6
+13-44340-820,Georgia,Statesboro GA Micro,Statesboro-Bulloch County GA,90.1,96.8,76.5,86.9,91.9,82.5,100.6
+13-46660-850,Georgia,Valdosta GA Metro,Valdosta GA,93.2,106.2,82.6,100.4,97.0,96.8,92.4
+15-25900-400,Hawaii,Hilo HI Micro,Hilo HI,151.2,157.6,149.7,246.2,134.9,113.4,130.5
+15-46520-500,Hawaii,Urban Honolulu HI Metro,Honolulu HI,184.9,156.5,293.9,221.4,131.7,107.5,120.7
+16-14260-200,Idaho,Boise City ID Metro,Boise ID,91.7,86.1,81.6,84.9,106.6,106.6,97.6
+16-26820-400,Idaho,Idaho Falls ID Metro,Idaho Falls ID,83.6,94.6,59.3,82.4,102.1,104.2,90.7
+16-46300-800,Idaho,Twin Falls ID Micro,Twin Falls ID,91.3,91.0,81.2,92.7,101.5,98.3,95.0
+17-16580-200,Illinois,Champaign-Urbana IL Metro,Champaign-Urbana IL,96.7,97.2,88.0,115.2,93.1,109.0,97.9
+17-16974-280,Illinois,Chicago-Naperville-Arlington Heights IL Metro Div.,Chicago IL,116.2,112.4,136.8,104.6,116.6,98.9,105.8
+17-16974-520,Illinois,Chicago-Naperville-Arlington Heights IL Metro Div.,Joliet-Will County IL,100.5,101.2,102.9,100.5,106.6,106.0,95.0
+17-19180-325,Illinois,Danville IL Metro,Danville IL,90.4,97.2,69.1,102.4,97.4,94.8,99.0
+17-19500-370,Illinois,Decatur IL Metro,Decatur IL,89.5,90.8,79.9,96.4,95.6,90.6,92.5
+17-28140-480,Illinois,Kankakee IL Metro,Kankakee IL,95.3,90.4,85.1,116.6,100.9,104.6,96.1
+17-37900-700,Illinois,Peoria IL Metro,Peoria IL,98.9,95.8,101.6,101.0,101.8,93.7,96.9
+17-39500-775,Illinois,Quincy IL-MO Micro,Quincy IL,93.8,99.4,98.5,86.5,91.2,98.8,89.7
+17-40420-800,Illinois,Rockford IL Metro,Rockford IL,92.3,96.7,79.8,95.8,102.9,102.5,94.7
+17-44100-870,Illinois,Springfield IL Metro,Springfield IL,89.1,100.3,76.8,74.6,98.2,103.3,94.1
+18-14020-100,Indiana,Bloomington IN Metro,Bloomington IN,87.7,92.5,79.7,89.2,97.3,95.2,87.3
+18-21780-340,Indiana,Evansville IN-KY Metro,Evansville IN,92.6,93.2,82.1,106.5,96.3,92.4,95.7
+18-23060-400,Indiana,Fort Wayne IN Metro,Fort Wayne-Allen County IN,87.2,91.2,71.8,94.0,92.8,92.3,94.0
+18-26900-550,Indiana,Indianapolis-Carmel-Anderson IN Metro,Indianapolis IN,91.5,93.8,82.4,92.0,93.1,98.3,96.8
+18-26900-650,Indiana,Indianapolis-Carmel-Anderson IN Metro,Indianapolis-Morgan County IN,88.0,95.1,74.9,95.0,88.4,97.1,92.7
+18-29200-720,Indiana,Lafayette-West Lafayette IN Metro,Lafayette IN,89.6,96.6,72.0,100.6,94.4,97.0,95.6
+18-39980-840,Indiana,Richmond IN Micro,Richmond IN,82.3,90.3,73.2,81.8,91.7,82.2,83.4
+18-43780-870,Indiana,South Bend-Mishawaka IN-MI Metro,South Bend IN,89.9,94.2,86.8,84.5,97.6,95.8,88.7
+18-45460-920,Indiana,Terre Haute IN Metro,Terre Haute IN,97.6,96.0,87.9,97.3,91.6,109.4,107.5
+19-11180-100,Iowa,Ames IA Metro,Ames IA,94.2,91.2,99.3,86.5,102.6,96.5,90.1
+19-15460-177,Iowa,Burlington IA-IL Micro,Burlington IA,89.0,92.1,76.9,102.4,93.5,92.7,91.6
+19-16300-200,Iowa,Cedar Rapids IA Metro,Cedar Rapids IA,94.5,93.9,85.5,107.3,95.5,101.4,97.2
+19-19340-300,Iowa,Davenport-Moline-Rock Island IA-IL Metro,Davenport-Moline-Rock Is IA-IL,99.1,96.8,101.4,97.6,104.5,96.6,96.8
+19-19780-330,Iowa,Des Moines-West Des Moines IA Metro,Des Moines IA,90.9,92.3,84.5,93.2,97.1,96.6,92.1
+19-20220-360,Iowa,Dubuque IA Metro,Dubuque IA,92.7,97.3,69.6,115.6,96.5,95.5,101.7
+19-32380-650,Iowa,Mason City IA Micro,Mason City IA,86.8,93.6,70.9,93.4,88.9,92.7,94.0
+19-47940-900,Iowa,Waterloo-Cedar Falls IA Metro,Waterloo-Cedar Falls IA,92.9,93.3,93.0,80.2,102.4,100.0,92.0
+20-19980-200,Kansas,Dodge City KS Micro,Dodge City KS,94.8,91.0,87.9,101.6,92.5,95.5,101.3
+20-26740-400,Kansas,Hutchinson KS Micro,Hutchinson KS,90.4,90.5,80.2,92.8,93.7,102.8,95.6
+20-31740-650,Kansas,Manhattan KS Metro,Manhattan KS,92.1,92.8,89.9,89.2,91.5,97.2,94.3
+20-41460-750,Kansas,Salina KS Micro,Salina KS,87.4,93.3,75.2,101.1,96.2,101.5,85.6
+20-45820-800,Kansas,Topeka KS Metro,Topeka KS,91.5,98.1,79.0,89.8,91.5,93.3,100.0
+20-48620-900,Kansas,Wichita KS Metro,Wichita KS,93.1,93.9,73.8,114.5,95.6,97.8,101.1
+21-14540-200,Kentucky,Bowling Green KY Metro,Bowling Green KY,90.5,93.4,79.7,106.5,93.2,93.7,92.2
+21-17140-275,Kentucky,Cincinnati OH-KY-IN Metro,Covington KY,87.8,91.4,72.7,93.7,99.6,102.2,91.2
+21-30460-600,Kentucky,Lexington-Fayette KY Metro,Lexington KY,90.9,94.9,76.1,83.3,95.8,94.4,102.2
+21-31140-700,Kentucky,Louisville-Jefferson County KY-IN Metro,Louisville KY,92.3,92.2,80.4,89.6,103.5,89.6,99.7
+21-37140-850,Kentucky,Paducah KY-IL Micro,Paducah KY,92.7,95.3,83.8,114.2,88.7,88.5,94.5
+22-10780-100,Louisiana,Alexandria LA Metro,Alexandria LA,98.7,98.6,91.5,84.8,97.8,100.1,109.8
+22-12940-200,Louisiana,Baton Rouge LA Metro,Baton Rouge LA,92.4,101.4,88.7,81.5,86.2,102.6,96.2
+22-25220-350,Louisiana,Hammond LA Metro,Hammond LA,90.3,97.9,76.0,96.1,91.7,97.2,96.1
+22-26380-365,Louisiana,Houma-Thibodaux LA Metro,Houma-Terrebonne Parish LA,95.5,95.8,101.9,86.9,92.5,86.9,94.9
+22-26380-900,Louisiana,Houma-Thibodaux LA Metro,Thibodaux-Lafourche Parish LA,93.0,97.4,88.5,85.2,96.3,103.3,94.9
+22-29180-400,Louisiana,Lafayette LA Metro,Lafayette LA,93.2,97.4,87.2,92.3,99.6,84.9,95.7
+22-29340-450,Louisiana,Lake Charles LA Metro,Lake Charles LA,95.1,98.3,97.3,94.7,98.6,92.7,90.8
+22-33740-500,Louisiana,Monroe LA Metro,Monroe LA,92.7,93.9,92.9,85.9,86.9,91.0,96.7
+22-35380-600,Louisiana,New Orleans-Metairie LA Metro,New Orleans LA,95.5,100.5,97.9,85.7,93.7,98.2,94.7
+22-35380-850,Louisiana,New Orleans-Metairie LA Metro,Slidell-St. Tammany Parish LA,97.1,97.8,93.0,103.4,97.6,94.2,98.5
+22-43340-800,Louisiana,Shreveport-Bossier City LA Metro,Shreveport-Bossier City LA,89.3,94.9,84.6,83.5,90.1,87.5,92.9
+23-38860-500,Maine,Portland-South Portland ME Metro,Portland ME,114.0,105.1,122.3,114.9,113.7,112.7,110.5
+24-12580-100,Maryland,Baltimore-Columbia-Towson MD Metro,Baltimore MD,112.2,115.1,145.0,94.6,103.5,89.1,94.4
+24-43524-250,Maryland,Silver Spring-Frederick-Rockville MD Metro Div.,Bethesda-Gaithersburg-Frederick MD,129.2,108.0,202.5,101.3,108.7,89.1,96.3
+25-14460-200,Massachusetts,Boston MA Metro Div.,Boston MA,142.6,105.7,190.9,147.8,109.4,129.1,129.4
+25-15764-530,Massachusetts,Cambridge-Newton-Framingham MA Metro Div.,Framingham-Natick MA,136.7,111.4,193.5,102.7,108.7,123.8,121.4
+25-38340-700,Massachusetts,Pittsfield MA Metro,Pittsfield MA,111.0,112.3,133.0,95.9,113.0,100.2,96.8
+25-49340-520,Massachusetts,Worcester MA-CT Metro,Fitchburg-Leominster MA,112.3,92.6,115.7,121.1,125.7,119.1,109.2
+26-19804-400,Michigan,Detroit-Dearborn-Livonia MI Metro Div.,Detroit MI,95.6,90.1,91.3,103.7,104.4,96.3,95.8
+26-24340-570,Michigan,Grand Rapids-Wyoming MI Metro,Grand Rapids MI,92.8,93.2,81.5,93.0,100.8,94.5,99.1
+26-28020-650,Michigan,Kalamazoo-Portage MI Metro,Kalamazoo MI,85.8,83.3,68.0,101.7,99.6,96.0,90.6
+26-35660-855,Michigan,Niles-Benton Harbor MI ,Benton Harbor MI,92.1,102.6,80.1,96.8,100.5,94.7,93.0
+27-31860-500,Minnesota,Mankato-North Mankato MN Metro,Mankato MN,95.1,104.9,80.7,78.8,95.9,110.9,106.2
+27-33460-511,Minnesota,Minneapolis-St. Paul-Bloomington MN-WI Metro,Minneapolis MN,108.0,106.5,113.2,92.6,108.4,105.1,109.4
+27-33460-880,Minnesota,Minneapolis-St. Paul-Bloomington MN-WI Metro,St. Paul MN,107.1,104.7,111.1,91.2,108.7,105.0,109.4
+27-41060-840,Minnesota,St. Cloud MN Metro,St. Cloud MN,96.1,111.7,77.6,91.9,95.8,113.9,104.4
+28-25620-500,Mississippi,Hattiesburg MS Metro,Hattiesburg MS,84.1,98.2,69.7,88.2,88.4,89.8,86.9
+28-27140-600,Mississippi,Jackson MS Metro,Jackson MS,84.6,88.7,75.2,81.9,84.3,90.0,91.2
+28-46180-850,Mississippi,Tupelo MS Micro,Tupelo MS,85.6,90.4,70.1,80.6,93.9,95.0,94.3
+29-17860-250,Missouri,Columbia MO Metro,Columbia MO,95.3,95.9,88.8,99.1,89.8,101.0,100.8
+29-27620-450,Missouri,Jefferson City MO Metro,Jefferson City MO,91.6,95.1,78.1,99.6,91.2,99.1,98.5
+29-27900-500,Missouri,Joplin MO Metro,Joplin MO,87.8,90.1,71.0,117.8,94.4,92.2,88.7
+29-28140-600,Missouri,Kansas City MO-KS Metro,Kansas City MO-KS,95.3,92.0,92.0,92.0,95.8,96.7,100.4
+29-41180-880,Missouri,St. Louis MO-IL Metro,St. Louis MO-IL,93.1,104.3,72.3,116.5,99.2,101.0,95.4
+29-44180-920,Missouri,Springfield MO Metro,Springfield MO,89.3,95.5,71.9,104.6,92.5,96.0,94.7
+30-14580-250,Montana,Bozeman MT Micro,Bozeman MT,102.6,101.8,114.8,85.4,97.9,105.1,99.2
+31-25580-420,Nebraska,Hastings NE Micro,Hastings NE,95.5,101.3,95.2,96.5,102.0,98.3,90.0
+31-30700-600,Nebraska,Lincoln NE Metro,Lincoln NE,91.3,97.2,78.9,82.8,99.4,100.8,98.0
+31-36540-700,Nebraska,Omaha-Council Bluffs NE-IA Metro,Omaha NE,91.2,94.7,83.0,89.2,96.3,101.2,94.2
+32-29820-400,Nevada,Las Vegas-Henderson-Paradise NV Metro,Las Vegas NV,108.3,117.9,106.6,91.8,116.5,105.2,108.3
+32-39900-600,Nevada,Reno NV Metro,Reno-Sparks NV,103.8,107.8,93.2,93.2,114.1,100.5,111.4
+33-31700-500,New Hampshire,Manchester-Nashua NH Metro,Manchester NH,118.2,108.6,123.5,136.8,106.0,116.4,116.7
+34-35084-500,New Jersey,Newark NJ-PA Metro Div.,Newark-Elizabeth NJ,126.9,109.2,165.8,113.8,107.3,106.7,114.9
+34-35614-050,New Jersey,New York-Jersey City-White Plains NY-NJ Metro Div.,Bergen-Passaic NJ,129.1,111.9,173.8,111.2,106.4,107.6,114.8
+34-35614-250,New Jersey,New York-Jersey City-White Plains NY-NJ Metro Div.,Middlesex-Monmouth NJ,122.0,111.3,150.3,111.0,107.1,111.1,112.7
+35-10740-200,New Mexico,Albuquerque NM Metro,Albuquerque NM,95.8,92.4,97.3,91.6,101.6,97.4,95.0
+35-10740-595,New Mexico,Albuquerque NM Metro,Rio Rancho NM,92.2,96.8,74.4,89.8,102.7,96.7,101.9
+36-10580-001,New York,Albany-Schenectady-Troy NY Metro,Albany NY,111.1,106.1,122.6,90.5,106.8,100.4,112.9
+36-15380-160,New York,Buffalo-Cheektowaga-Niagara Falls NY Metro,Buffalo NY,95.7,91.6,102.8,99.5,102.1,86.2,88.8
+36-27060-450,New York,Ithaca NY Metro,Ithaca NY,106.1,102.8,117.9,87.3,110.8,108.5,101.2
+36-35614-599,New York,New York-Jersey City-White Plains NY-NJ Metro Div.,New York (Brooklyn) NY,173.4,132.3,294.4,131.4,123.2,114.6,125.9
+36-35614-600,New York,New York-Jersey City-White Plains NY-NJ Metro Div.,New York (Manhattan) NY,225.8,125.2,457.7,130.0,128.3,115.8,149.6
+36-40380-750,New York,Rochester NY Metro,Rochester NY,99.0,96.6,93.3,90.4,111.3,98.7,103.2
+37-11700-100,North Carolina,Asheville NC Metro,Asheville NC,99.2,100.3,99.9,94.3,99.0,101.0,99.4
+37-15500-250,North Carolina,Burlington NC Metro,Burlington NC,91.9,97.7,77.4,95.4,97.4,98.7,98.0
+37-16740-350,North Carolina,Charlotte-Concord-Gastonia NC-SC Metro,Charlotte NC,96.3,101.8,83.3,105.5,96.4,103.0,101.4
+37-20500-300,North Carolina,Durham-Chapel Hill NC Metro,Chapel Hill NC,104.8,96.9,116.1,89.6,99.6,103.4,105.5
+37-20500-440,North Carolina,Durham-Chapel Hill NC Metro,Durham NC,89.9,97.4,71.8,87.1,103.5,101.4,96.5
+37-28620-400,North Carolina,Kill Devil Hills NC Micro,Dare County NC,108.4,104.2,108.4,113.4,99.4,106.6,112.5
+37-39580-740,North Carolina,Raleigh NC Metro,Raleigh NC,91.0,101.0,73.8,98.3,91.7,100.1,97.8
+37-48900-900,North Carolina,Wilmington NC Metro,Wilmington NC,98.3,101.9,86.4,108.6,106.0,109.4,99.2
+37-49180-825,North Carolina,Winston-Salem NC Metro,Thomasville-Lexington NC,90.5,100.6,83.9,89.5,84.2,112.1,91.6
+37-49180-950,North Carolina,Winston-Salem NC Metro,Winston-Salem NC,93.7,98.9,67.2,108.1,99.7,106.3,106.1
+38-13900-200,North Dakota,Bismarck ND Metro,Bismarck-Mandan ND,101.7,106.7,106.2,85.6,106.9,109.9,97.7
+38-22020-400,North Dakota,Fargo ND-MN Metro,Fargo-Moorhead ND-MN,98.3,108.1,90.6,96.9,98.9,114.5,98.7
+38-33500-800,North Dakota,Minot ND Micro,Minot ND,103.5,109.4,110.6,86.6,92.9,108.8,103.5
+39-10420-100,Ohio,Akron OH Metro,Akron OH,102.0,113.9,112.1,94.5,105.9,90.2,90.3
+39-11740-200,Ohio,Ashland OH Micro,Ashland OH,82.9,94.9,59.7,93.5,101.4,90.6,86.4
+39-17140-250,Ohio,Cincinnati OH-KY-IN Metro,Cincinnati OH,91.3,91.5,79.1,103.2,98.7,97.0,94.5
+39-17460-300,Ohio,Cleveland-Elyria OH Metro,Cleveland OH,101.3,107.7,93.8,100.2,100.2,109.8,104.8
+39-18140-350,Ohio,Columbus OH Metro,Columbus OH,90.6,92.8,78.3,98.1,93.2,95.9,96.4
+39-19380-400,Ohio,Dayton OH Metro,Dayton OH,93.5,99.2,76.4,97.4,99.5,89.2,103.2
+39-22300-425,Ohio,Findlay OH Micro,Findlay OH,96.6,100.5,90.3,102.4,92.0,97.6,100.1
+39-30620-500,Ohio,Lima OH Metro,Lima OH,95.6,103.8,78.1,109.9,100.4,107.2,99.3
+39-49300-825,Ohio,Wooster OH Micro,Wooster OH,91.7,95.2,80.3,105.4,93.2,93.4,95.0
+39-49660-900,Ohio,Youngstown-Warren-Boardman OH-PA Metro,Youngstown-Warren OH,82.9,80.8,68.6,93.5,93.1,83.4,88.9
+40-11620-100,Oklahoma,Ardmore OK Micro,Ardmore OK,85.3,94.3,75.9,83.8,86.3,91.0,88.9
+40-21420-200,Oklahoma,Enid OK Micro,Enid OK,94.8,97.3,86.5,105.0,93.9,94.4,98.2
+40-30020-400,Oklahoma,Lawton OK Metro,Lawton OK,93.1,99.0,91.9,87.9,96.2,104.8,90.5
+40-34780-550,Oklahoma,Muskogee OK Micro,Muskogee OK,92.4,105.8,77.1,97.3,84.6,96.6,100.7
+40-36420-150,Oklahoma,Oklahoma City OK Metro,Edmond OK,96.3,88.2,95.2,103.2,97.0,95.2,98.5
+40-36420-675,Oklahoma,Oklahoma City OK Metro,Norman OK,83.1,88.1,69.9,90.7,84.9,87.8,88.8
+40-36420-700,Oklahoma,Oklahoma City OK Metro,Oklahoma City OK,89.2,91.8,77.6,100.4,89.5,95.2,93.6
+40-38620-712,Oklahoma,Ponca City OK Micro,Ponca City OK,90.9,95.5,76.5,102.0,94.0,98.6,95.8
+40-44660-750,Oklahoma,Stillwater OK Micro,Stillwater OK,91.3,102.9,84.4,100.3,86.8,96.0,90.3
+40-46140-800,Oklahoma,Tulsa OK Metro,Tulsa OK,86.7,96.4,65.2,95.7,94.1,95.1,94.4
+40-88888-725,Oklahoma,NonMetro US,Pryor Creek OK,87.9,99.8,74.7,94.7,85.0,94.0,92.2
+41-38900-600,Oregon,Portland-Vancouver-Hillsboro OR-WA Metro,Portland OR,128.4,114.5,164.9,84.5,117.2,111.8,123.1
+42-21500-200,Pennsylvania,Erie PA Metro,Erie PA,99.3,105.9,86.4,85.2,100.1,93.3,113.0
+42-25420-430,Pennsylvania,Harrisburg-Carlisle PA Metro,Harrisburg PA,99.1,96.4,90.6,115.8,92.4,90.5,106.2
+42-27780-470,Pennsylvania,Johnstown PA Metro,Johnstown PA,94.3,103.7,72.0,106.9,110.9,98.5,98.9
+42-37964-700,Pennsylvania,Philadelphia PA Metro Div.,Philadelphia PA,119.6,115.0,136.1,121.0,108.8,99.9,113.5
+42-38300-750,Pennsylvania,Pittsburgh PA Metro,Pittsburgh PA,98.9,100.1,95.5,100.6,112.2,96.3,96.0
+42-42540-815,Pennsylvania,Scranton-Wilkes-Barre-Hazleton PA Metro,Scranton PA,99.9,103.7,91.1,115.7,107.5,89.3,99.4
+42-42540-900,Pennsylvania,Scranton-Wilkes-Barre-Hazleton PA Metro,Wilkes-Barre PA,99.7,102.8,101.7,115.7,107.3,78.6,91.4
+42-48700-920,Pennsylvania,Williamsport PA Metro,Williamsport-Lycoming County PA,97.0,101.9,87.7,123.8,101.7,96.1,92.5
+42-49620-950,Pennsylvania,York-Hanover PA Metro,York County PA,101.1,99.2,97.3,113.4,99.7,94.2,102.9
+43-39300-250,Rhode Island,Providence-Warwick RI-MA Metro,Providence RI,123.3,115.6,136.9,125.1,105.6,116.3,122.0
+45-16700-200,South Carolina,Charleston-North Charleston SC Metro,Charleston-N Charleston SC,101.1,107.7,96.7,114.3,91.8,106.5,100.5
+45-17900-180,South Carolina,Columbia SC Metro,Camden SC,93.5,103.9,83.4,97.9,87.6,92.6,98.8
+45-17900-300,South Carolina,Columbia SC Metro,Columbia SC,94.3,105.1,77.4,98.5,92.4,96.9,103.3
+45-24860-150,South Carolina,Greenville-Anderson-Mauldin SC Metro,Anderson SC,90.7,105.9,72.4,95.3,92.0,98.6,97.1
+45-24860-400,South Carolina,Greenville-Anderson-Mauldin SC Metro,Greenville SC,94.1,101.8,80.9,94.6,91.4,105.2,101.8
+45-25940-150,South Carolina,Hilton Head Island-Bluffton-Beaufort SC Metro,Beaufort SC,99.5,114.0,87.7,107.3,94.5,98.7,103.0
+45-25940-500,South Carolina,Hilton Head Island-Bluffton-Beaufort SC Metro,Hilton Head Island SC,108.2,111.5,109.9,105.8,94.5,112.3,110.8
+45-34820-650,South Carolina,Myrtle Beach-Conway-North Myrtle Beach SC-NC Metro,Myrtle Beach SC,93.3,103.5,70.8,115.6,93.9,97.4,100.7
+45-44940-850,South Carolina,Sumter SC Metro,Sumter SC,92.0,103.3,77.1,103.8,93.0,92.2,96.0
+46-38180-700,South Dakota,Pierre SD Micro,Pierre SD,103.1,107.8,117.7,89.5,97.5,96.5,95.7
+46-43620-800,South Dakota,Sioux Falls SD Metro,Sioux Falls SD,93.9,92.7,92.7,100.2,89.5,107.1,93.2
+47-16860-300,Tennessee,Chattanooga TN-GA Metro,Chattanooga TN,94.8,93.9,90.1,97.1,95.0,102.9,97.5
+47-17420-315,Tennessee,Cleveland TN Metro,Cleveland TN,87.5,92.8,82.8,81.5,85.2,87.7,92.2
+47-18260-330,Tennessee,Cookeville TN Micro,Cookeville TN,84.6,91.9,70.9,89.2,91.6,86.7,89.1
+47-27180-400,Tennessee,Jackson TN Metro,Jackson-Madison County TN,92.8,87.7,73.6,89.7,97.9,90.3,111.5
+47-28940-500,Tennessee,Knoxville TN Metro,Knoxville TN,87.0,86.0,80.9,90.1,87.7,89.0,91.3
+47-32820-600,Tennessee,Memphis TN-MS-AR Metro,Memphis TN,85.5,91.5,68.6,95.5,89.6,88.2,92.4
+47-34100-640,Tennessee,Morristown TN Metro,Morristown TN,92.7,99.1,76.9,103.2,91.3,91.7,101.0
+47-34980-325,Tennessee,Nashville-Davidson-Murfreesboro-Franklin TN Metro,Columbia-Maury County TN,94.3,101.3,85.8,91.9,92.3,83.8,101.6
+47-34980-700,Tennessee,Nashville-Davidson-Murfreesboro-Franklin TN Metro,Nashville-Murfreesboro TN,94.4,96.5,81.3,95.7,98.8,86.6,104.1
+48-10180-020,Texas,Abilene TX Metro,Abilene TX,93.3,92.5,91.5,75.6,99.0,92.4,98.9
+48-11100-040,Texas,Amarillo TX Metro,Amarillo TX,86.1,93.3,73.7,82.6,92.2,95.8,91.4
+48-11980-980,Texas,Athens TX Micro,Athens-Henderson County TX,91.1,97.5,73.7,101.8,92.9,89.3,99.6
+48-12420-080,Texas,Austin-Round Rock TX Metro,Austin TX,95.5,84.0,89.7,102.6,98.0,102.5,101.5
+48-12420-780,Texas,Austin-Round Rock TX Metro,Round Rock TX,91.8,84.9,90.2,96.0,91.2,103.5,93.6
+48-12420-840,Texas,Austin-Round Rock TX Metro,San Marcos TX,86.9,82.6,75.7,88.4,101.5,93.9,91.5
+48-13140-120,Texas,Beaumont-Port Arthur TX Metro,Beaumont TX,97.3,86.6,94.4,100.9,94.8,89.4,105.6
+48-15180-140,Texas,Brownsville-Harlingen TX Metro,Brownsville TX,86.3,84.0,79.6,102.3,98.0,82.1,84.2
+48-15180-435,Texas,Brownsville-Harlingen TX Metro,Harlingen TX,80.9,83.3,69.8,102.0,87.6,92.0,78.8
+48-18580-200,Texas,Corpus Christi TX Metro,Corpus Christi TX,94.3,83.1,92.5,113.1,92.0,92.9,95.8
+48-19124-124,Texas,Dallas-Plano-Irving Metro Metro Div.,Allen TX,98.5,89.5,113.2,91.8,108.4,104.0,87.2
+48-19124-240,Texas,Dallas-Plano-Irving Metro Metro Div.,Dallas TX,96.4,102.4,76.2,100.3,99.5,102.3,108.2
+48-19124-250,Texas,Dallas-Plano-Irving Metro Metro Div.,Denton TX,93.4,93.6,88.2,87.6,100.3,94.6,97.1
+48-19124-770,Texas,Dallas-Plano-Irving Metro Metro Div.,Plano TX,100.3,100.4,90.7,101.6,115.0,100.5,102.6
+48-21340-300,Texas,El Paso TX Metro,El Paso TX,92.0,104.0,83.4,86.3,102.0,92.4,92.2
+48-23104-340,Texas,Fort Worth-Arlington TX Metro Div.,Fort Worth TX,102.4,94.4,98.2,95.5,100.5,101.8,112.6
+48-26420-133,Texas,Houston-The Woodlands-Sugar Land TX Metro,Brazoria County TX,91.9,82.7,89.9,100.5,91.8,100.8,93.7
+48-26420-180,Texas,Houston-The Woodlands-Sugar Land TX Metro,Conroe TX,91.4,86.6,87.7,95.2,91.4,99.4,94.4
+48-26420-500,Texas,Houston-The Woodlands-Sugar Land TX Metro,Houston TX,97.9,85.3,104.7,98.5,91.7,90.9,100.5
+48-28660-880,Texas,Killeen-Temple TX Metro,Temple TX,90.7,84.3,78.5,93.8,96.3,100.6,99.9
+48-30980-620,Texas,Longview TX Metro,Longview TX,99.8,94.0,96.2,105.4,103.4,100.5,102.3
+48-31180-640,Texas,Lubbock TX Metro,Lubbock TX,88.8,91.9,81.9,81.1,91.6,99.1,93.4
+48-32580-670,Texas,McAllen-Edinburg-Mission TX Metro,McAllen TX,79.4,80.7,73.7,86.8,87.7,80.5,78.0
+48-33260-700,Texas,Midland TX Metro,Midland TX,96.6,89.1,94.4,90.7,104.5,96.1,100.7
+48-34860-710,Texas,Nacogdoches TX Micro,Nacogdoches TX,97.7,96.9,86.6,111.1,97.1,93.5,104.2
+48-36220-720,Texas,Odessa TX Metro,Odessa TX,98.3,89.1,102.7,97.2,96.7,102.1,98.9
+48-41660-800,Texas,San Angelo TX Metro,San Angelo TX,98.4,95.5,95.6,106.1,100.2,96.3,99.1
+48-41700-810,Texas,San Antonio-New Braunfels TX Metro,San Antonio TX,87.8,83.4,74.5,86.7,87.1,95.4,101.0
+48-41700-850,Texas,San Antonio-New Braunfels TX Metro,Seguin TX,90.5,89.2,83.3,91.8,89.7,93.9,96.9
+48-43300-860,Texas,Sherman-Denison TX Metro,Sherman-Denison TX,85.2,88.7,74.6,80.5,101.7,83.7,88.4
+48-45500-900,Texas,Texarkana TX-AR Metro,Texarkana TX-AR,94.2,93.6,81.2,94.4,92.4,86.1,107.6
+48-46340-940,Texas,Tyler TX Metro,Tyler TX,94.2,92.9,95.1,92.5,93.2,90.5,95.5
+48-47380-970,Texas,Waco TX Metro,Waco TX,91.5,79.0,85.8,98.1,95.5,97.1,97.5
+48-48660-990,Texas,Wichita Falls TX Metro,Wichita Falls TX,89.3,95.7,80.3,94.8,90.6,96.3,91.1
+49-16260-300,Utah,Cedar City UT Micro,Cedar City UT,88.6,93.9,75.0,87.8,102.7,85.3,93.6
+49-41100-850,Utah,St. George UT Metro,St. George UT,92.5,93.6,88.5,86.7,103.3,92.5,93.3
+49-41620-900,Utah,Salt Lake City UT Metro,Salt Lake City UT,96.6,97.8,93.7,86.4,110.1,93.1,97.2
+50-15540-200,Vermont,Burlington-South Burlington VT Metro,Burlington-Chittenden County VT,123.2,109.6,152.9,121.4,113.3,107.3,109.7
+51-13980-150,Virginia,Blacksburg-Christiansburg-Radford VA Metro,Blacksburg VA,96.9,92.0,91.6,106.3,98.3,107.1,98.8
+51-16820-175,Virginia,Charlottesville VA Metro,Charlottesville VA,104.3,101.5,110.6,92.6,94.2,107.1,107.2
+51-19260-225,Virginia,Danville VA Micro,Danville City VA,95.0,98.4,84.8,112.4,89.2,92.4,99.3
+51-25500-425,Virginia,Harrisonburg VA Metro,Harrisonburg VA,97.3,95.9,100.7,101.7,88.2,103.9,96.2
+51-31340-450,Virginia,Lynchburg VA Metro,Lynchburg VA,91.1,91.6,83.8,101.3,86.9,95.9,95.1
+51-32300-500,Virginia,Martinsville VA Micro,Martinsville-Henry County VA,85.6,94.0,70.7,90.0,83.5,88.9,94.0
+51-40060-800,Virginia,Richmond VA Metro,Richmond VA,95.6,93.5,88.1,108.0,92.2,103.8,99.2
+51-40220-830,Virginia,Roanoke VA Metro,Roanoke VA,90.6,90.9,90.0,98.7,87.5,94.5,89.0
+51-44420-900,Virginia,Staunton-Waynesboro VA Metro,Staunton-Augusta County VA,94.2,92.6,93.0,101.4,90.3,93.9,95.2
+51-47260-400,Virginia,Virginia Beach-Norfolk-Newport News VA-NC Metro,Hampton Roads-SE Virginia VA,98.7,91.5,92.1,103.0,97.7,107.1,105.6
+51-49020-950,Virginia,Winchester VA-WV Metro,Winchester VA-WV,99.9,97.5,99.1,95.2,90.8,102.4,106.2
+51-99999-440,Virginia,NonMetro US,Lexington-Buena Vista-Rockbridge VA,94.3,91.0,93.0,99.8,98.3,92.9,93.8
+53-13380-050,Washington,Bellingham WA Metro,Bellingham WA,113.3,106.8,131.2,79.9,119.1,115.6,108.7
+53-28420-740,Washington,Kennewick-Richland WA Metro,Kennewick-Richland-Pasco WA,95.3,93.2,97.7,88.8,108.5,105.1,89.9
+53-34180-690,Washington,Moses Lake WA Micro,Moses Lake WA,92.4,98.4,80.0,72.3,107.8,118.7,97.7
+53-34580-720,Washington,Mount Vernon-Anacortes WA Metro,Mount Vernon-Skagit County WA,111.0,115.7,112.0,76.2,111.1,121.4,117.7
+53-36500-700,Washington,Olympia-Tumwater WA Metro,Olympia WA,100.4,105.5,99.6,79.7,114.4,119.4,97.5
+53-38900-890,Washington,Portland-Vancouver-Hillsboro OR-WA Metro,Vancouver WA,105.7,101.3,101.9,93.7,115.1,108.5,110.9
+53-42644-350,Washington,Seattle-Bellevue-Everett WA Metro Div.,Everett WA,111.7,106.3,127.7,85.3,116.0,126.4,104.8
+53-42644-800,Washington,Seattle-Bellevue-Everett WA Metro Div.,Seattle WA,138.2,121.5,184.2,105.1,119.2,120.6,125.6
+53-44060-840,Washington,Spokane-Spokane Valley WA Metro,Spokane WA,96.0,92.5,91.7,80.6,107.8,114.8,99.1
+53-45104-880,Washington,Tacoma-Lakewood WA Metro Div.,Tacoma WA,104.7,99.2,91.4,108.0,110.5,117.0,113.9
+53-49420-950,Washington,Yakima WA Metro,Yakima WA,96.9,98.4,91.1,83.1,110.7,110.9,98.5
+54-34060-550,West Virginia,Morgantown WV Metro,Morgantown WV,103.6,97.4,105.8,93.3,99.7,96.9,110.1
+55-20740-250,Wisconsin,Eau Claire WI Metro,Eau Claire WI,96.0,103.9,79.0,93.0,106.3,109.9,102.5
+55-22540-275,Wisconsin,Fond du Lac WI Metro,Fond du Lac WI,96.6,106.0,79.8,103.1,101.1,111.5,101.3
+55-24580-300,Wisconsin,Green Bay WI Metro,Green Bay WI,94.3,91.5,81.1,109.3,102.4,106.2,97.5
+55-27500-350,Wisconsin,Janesville-Beloit WI Metro,Janesville WI,98.1,97.7,92.8,112.7,101.0,109.1,95.5
+55-31540-500,Wisconsin,Madison WI Metro,Madison WI,105.3,103.6,112.8,93.9,105.7,119.0,101.2
+55-33340-580,Wisconsin,Milwaukee-Waukesha-West Allis WI Metro,Milwaukee-Waukesha WI,101.1,102.6,101.1,109.1,97.7,117.1,96.9
+55-49220-550,Wisconsin,Wisconsin Rapids-Marshfield WI Micro,Marshfield WI,92.9,96.5,87.2,92.2,95.2,110.3,93.2
+56-29660-500,Wyoming,Laramie WY Micro,Laramie WY,92.9,96.6,90.2,100.2,90.5,101.4,91.1
+72-41980-700,Puerto Rico,San Juan-Carolina-Caguas  PR Metro,San Juan PR,112.7,124.2,98.9,172.4,100.1,54.3,113.3
