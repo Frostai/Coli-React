@@ -1,9 +1,16 @@
 import React from 'react';
 
-
 export default class Comparison extends React.Component {
+    constructor(props) {
+        super(props);
+
+    }
     render() {
-        return (<h1>Comparison</h1>);
+        return (
+        <div>
+            
+        </div>
+        );
     }
 }
 
