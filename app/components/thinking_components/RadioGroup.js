@@ -12,11 +12,11 @@ export default class ThinkingRadioGroup extends React.Component {
             thinking: {
                 from: {
                     value: 'from-pr',
-                    label: "Estoy pensando mudarme desde Puerto Rico I am thinking of moving from Puerto Rico"
+                    label: "Estoy pensando mudarme desde Puerto Rico / I am thinking of moving from Puerto Rico"
                 },
                 to: {
                     value: 'to-pr',
-                    label: "Estoy pensando mudarme a Puerto Rico I am thinking of moving to Puerto Rico"
+                    label: "Estoy pensando mudarme a Puerto Rico / I am thinking of moving to Puerto Rico"
                 }
             }
         };
@@ -24,12 +24,13 @@ export default class ThinkingRadioGroup extends React.Component {
     }
     handleChange(event, value) {
         this.props.onChange(value);
+        console.log('RadioGroup change: ' + value);
     }
 
     render() {
         return (
             <div>
-                <RadioButtonGroup name="thinking" defaultSelected="from-pr" onChange={this.handleChange}>
+                <RadioButtonGroup name="thinking" onChange={this.handleChange}>
                     <RadioButton
                         value={this.state.thinking.from.value}
                         label={this.state.thinking.from.label}

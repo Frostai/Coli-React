@@ -18,9 +18,6 @@ module.exports = {
                 test: /\.js$/,
                 exclude: /node_modules/,
                 loader: 'babel-loader'
-            }, {
-                test: /\.css$/,
-                loader: "style-loader!css-loader"
             },
             {
                 test: /\.csv$/,
@@ -30,6 +27,10 @@ module.exports = {
                     header: true,
                     skipEmptyLines: true
                 }
+            },
+            {
+                test: /\.css$/,
+                use: [ 'style-loader', 'css-loader' ]
             }
         ]
     },

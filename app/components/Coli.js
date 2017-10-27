@@ -7,32 +7,27 @@ export default class Coli extends React.Component {
     constructor(props) {
         super(props);
         this.state = {
-            thinking: 'thinking-from-pr',            
-            index : this.props.index,
-            averagePrices : this.props.averagePrices
+            thinking: 'from-pr',
+            index: this.props.index,
+            averagePrices: this.props.averagePrices
         }
         console.log(this.props.index);
+        this.handleThinkingChange = this.handleThinkingChange.bind(this);
     }
 
     // This handler is passed to the Thinking Component as onThinkingChange
     handleThinkingChange(e) {
         console.log(e);
         // Sets the local state with the value sent from Thinking Component
-        this.setState( { thinking: e } );
-    }
-
-    calculate() {
-
+        this.setState({ thinking: e });
     }
 
     render() {
         return (
             <div>
-                <Thinking onThinkingChange={this.handleThinkingChange.bind(this)} 
-                    thinking={this.state.thinking} locations={this.state.index}/>
-                <Comparison data={this.state.comparison}/>
-                <ProductsTable products={this.state.averagePrices}/>
-
+                <Thinking onThinkingChange={this.handleThinkingChange}
+                    thinking={this.state.thinking} locations={this.state.index} />
+                <ProductsTable products={this.state.averagePrices} />
             </div>
         );
     }
