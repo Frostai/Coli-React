@@ -20,7 +20,22 @@
     max-width: 100%;
     max-height: 100%;
 }
-@media all and (max-width: 768px){
+@media all and (max-width: 1024px){
+    .container {
+        width: 95%;
+    }
+.leftContainer {
+    width: 40%;
+    padding: 20px;
+}
+.rightContainer {
+    width: 58%;
+    padding: 20px;
+    margin-left: 10px;
+}
+}
+
+@media all and (max-width: 767px){
     .container {
         width: 95%;
     }

@@ -5,11 +5,6 @@ import Paper from 'material-ui/Paper';
 export default class Comparison extends React.Component {
     constructor(props) {
         super(props);
-        this.state = {
-            salary: this.props.salary.toLocaleString(undefined, { maximumFractionDigits: 2 }),
-            fromCity: this.props.fromCity,
-            toCity: this.props.toCity
-        };
         this.calculateComparableSalary = this.calculateComparableSalary.bind(this);
         this.prepareChartData = this.prepareChartData.bind(this);
     }
@@ -61,7 +56,7 @@ export default class Comparison extends React.Component {
         let bar = null;
         if (this.props.fromCity && this.props.toCity) {
             bar = <Bar data={this.prepareChartData(this.props.fromCity, this.props.toCity)}
-                width={100} height={50} redraw={true} />
+                width={100} height={80} redraw={true} />
         };
         return (
             <Paper className={'rightContainer'}>
