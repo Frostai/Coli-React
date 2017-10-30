@@ -11,9 +11,15 @@
     padding: 20px;
 }
 .rightContainer {
-    width: 58%;
+    width: calc(60% - 10px);
     padding: 20px;
     margin-left: 10px;
+}
+
+.productsContainer {
+    width: 80%;
+    margin: auto;
+    margin-top: 10px;
 }
 
 .chartContainer {
@@ -24,15 +30,18 @@
     .container {
         width: 95%;
     }
-.leftContainer {
-    width: 40%;
-    padding: 20px;
-}
-.rightContainer {
-    width: 58%;
-    padding: 20px;
-    margin-left: 10px;
-}
+    .leftContainer {
+        width: 40%;
+        padding: 20px;
+    }
+    .rightContainer {
+        width: calc(60% - 10px);
+        padding: 20px;
+        margin: 10px 0 0 0;        
+    }
+    .productsContainer {
+        width: 95%;
+    }
 }
 
 @media all and (max-width: 767px){
@@ -46,6 +55,9 @@
     .rightContainer {
         width: 100%;
         padding: 20px;
-        margin: 0;
+        margin: 10px 0 0 0;
+    }
+    .productsContainer {
+        width: 95%;
     }
 }

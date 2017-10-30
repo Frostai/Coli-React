@@ -15,12 +15,10 @@ export default class ColiSelection extends React.Component {
 
     handleThinking(selected) {
         this.props.onChange({ thinking: selected });
-        console.log('City: ' + selected);
     }
 
     handleSalaryChange(value) {
         this.props.onChange({ salary: value });
-        console.log('ThinkingSalary: $' + value);
     }
 
     handleSelectedState(value) {
@@ -29,7 +27,7 @@ export default class ColiSelection extends React.Component {
     }
 
     handleSelectedCity(value) {
-        console.log('Selected a city: ');
+        console.log('handleSelectedCity');
         console.log(value);
         this.props.onChange({ city: value.rowId });
     }

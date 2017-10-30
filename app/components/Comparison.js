@@ -56,7 +56,9 @@ export default class Comparison extends React.Component {
         let bar = null;
         if (this.props.fromCity && this.props.toCity) {
             bar = <Bar data={this.prepareChartData(this.props.fromCity, this.props.toCity)}
-                width={100} height={80} redraw={true} />
+                height={300} options={{
+                    maintainAspectRatio: false
+                }} redraw={true} />
         };
         return (
             <Paper className={'rightContainer'}>

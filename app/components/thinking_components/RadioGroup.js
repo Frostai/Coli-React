@@ -24,7 +24,7 @@ export default class ThinkingRadioGroup extends React.Component {
     }
     handleChange(event, value) {
         this.props.onChange(value);
-        console.log('RadioGroup change: ' + value);
+        //console.log('RadioGroup change: ' + value);
     }
 
     render() {
