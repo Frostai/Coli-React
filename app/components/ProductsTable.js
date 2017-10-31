@@ -16,20 +16,27 @@ export default class ProductsTable extends React.Component {
     }
 
     tableHeader(options) {
-        console.log(options);
+        var thStyle = {
+            'white-space': 'normal'
+        };
         return options.map((option) => (
-            <TableHeaderColumn>{option}</TableHeaderColumn>
+            <TableHeaderColumn style={thStyle}>{option}</TableHeaderColumn>
         ));
     }
 
     tableRows(options) {
         console.log(options);
+        var height = {
+            height: '40px',
+            'white-space': 'normal'
+        };
+        var padding = {padding: "0 10px 0 20px"};
         return options.map((option) => (
-            <TableRow>
-                <TableRowColumn>{option[0]}</TableRowColumn>
-                <TableRowColumn>{option[1]}</TableRowColumn>
-                <TableRowColumn>{option[2]}</TableRowColumn>
-                <TableRowColumn>{option[3]}</TableRowColumn>
+            <TableRow style={height}>
+                <TableRowColumn style={Object.assign(height,padding)}>{option[0]}</TableRowColumn>
+                <TableRowColumn style={height}>{option[1]}</TableRowColumn>
+                <TableRowColumn style={height}>{option[2]}</TableRowColumn>
+                <TableRowColumn style={height}>{option[3]}</TableRowColumn>
             </TableRow>
         ));
     }

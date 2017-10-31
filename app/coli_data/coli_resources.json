@@ -1,30 +1,53 @@
 {
-    "resources": {
-        "en": {
-            "thinking": {
-                "from": "I am thinking of moving from Puerto Rico",
-                "to": "I am thinking of moving to Puerto Rico"
-            },
-            "salary": {
-                "slider": "Currently my salary is: ",
-                "compare": "Comparable Salary"
-            },
-            "categories": [
-                "Groceries","Housing","Utilities","Health","Transportation","Miscellaneous"
-            ]
+    "languages": {
+        "en": {"label": "English", "code": "en"},
+        "es": {"label": "Spanish", "code": "es"}
+    },
+    "en": {
+        "intro": "Welcome to the Puerto Rico Institute of Statistics Cost of Living Index Calculator.\n\n Here we present information to allow a professional to compare the cost of living in Puerto Rico with different places in the United States.",
+        "thinking": {
+            "from": "I am thinking of moving from Puerto Rico",
+            "to": "I am thinking of moving to Puerto Rico"
         },
-        "es": {
-            "thinking": {
-                "from": "Estoy pensando mudarme desde Puerto Rico",
-                "to": "Estoy pensando mudarme a Puerto Rico"
-            },
-            "salary": {
-                "slider": "Actualmente mi sueldo es: ",
-                "compare": "Salario comparable"
-            },
-            "categories": [
-                "Alimentos","Vivienda","Utilidades","Salud","Transportación","Misceláneos"
-            ]
+        "salary": {
+            "sliderText": "Currently my salary is: "
+        },
+        "location": {
+            "stateText": "Select a State",
+            "cityText": "Select an Urban Area"
+        },
+        "comparison": {
+            "labels": [
+                "Groceries", "Housing", "Utilities", "Health", "Transportation", "Miscellaneous"
+            ],
+
+            "moreText": "more",
+            "lessText": "less",
+            "salary": "Comparable Salary is: "
         }
+    },
+    "es": {
+        "intro": "Bienvenidos a la aplicación Índice de Costo de Vida del portal del Instituto de Estadísticas.\n\n Aquí se presenta información que permite comparar el costo de vida de un profesional en Puerto Rico con distintos lugares en los Estados Unidos.",
+        "thinking": {
+            "from": "Estoy pensando mudarme desde Puerto Rico",
+            "to": "Estoy pensando mudarme a Puerto Rico"
+        },
+        "salary": {
+            "sliderText": "Actualmente mi sueldo es: "
+        },
+        "location": {
+            "stateText": "Escoja un Estado",
+            "cityText": "Escoja un área urbana"
+        },
+        "comparison": {
+            "labels": [
+                "Alimentos", "Vivienda", "Utilidades", "Salud", "Transportación", "Misceláneos"
+            ],
+            "moreText": "mas",
+            "lessText": "menos",
+            "salary": "Salario comparable es: "
+        }
+
+
     }
 }

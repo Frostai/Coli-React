@@ -33,11 +33,11 @@ export default class ThinkingRadioGroup extends React.Component {
                 <RadioButtonGroup name="thinking" onChange={this.handleChange}>
                     <RadioButton
                         value={this.state.thinking.from.value}
-                        label={this.state.thinking.from.label}
+                        label={this.props.resources.from}
                     />
                     <RadioButton
                         value={this.state.thinking.to.value}
-                        label={this.state.thinking.to.label}
+                        label={this.props.resources.to}
                     />
                 </RadioButtonGroup>
             </div>

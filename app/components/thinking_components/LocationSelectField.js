@@ -9,7 +9,7 @@ export default class LocationSelectField extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      state: 0, city: 0,
+      state: null, city: null,
       cities: []
     };
     this.handleStatesChange = this.handleStatesChange.bind(this);
@@ -39,14 +39,14 @@ export default class LocationSelectField extends React.Component {
     return (
       <div>
         <SelectField
-          hintText="Select a state"
+          hintText={this.props.resources.stateText}
           value={this.state.state}
           onChange={this.handleStatesChange}
           autoWidth={true} >
           {this.menuItems(this.props.states)}
         </SelectField>
         <SelectField
-          hintText="Select a city"
+          hintText={this.props.resources.cityText}
           value={this.state.city}
           onChange={this.handleCitiesChange}
           autoWidth={true} >

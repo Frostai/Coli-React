@@ -18,7 +18,7 @@ export default class SalarySlider extends React.Component {
     render() {
         return (
         <div>
-            <h3>Actualmente mi sueldo es / Currently my salary is: {this.state.salary.toLocaleString()}</h3>
+            <h3>{this.props.resources.sliderText} ${this.state.salary.toLocaleString()}</h3>
             <Slider
                 min={this.props.min} max={this.props.max} 
                 step={this.props.step} value={this.state.salary}

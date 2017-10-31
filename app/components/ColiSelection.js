@@ -35,13 +35,18 @@ export default class ColiSelection extends React.Component {
     render() {
         return (
             <div>
-                <ThinkingRadioGroup onChange={this.handleThinking} default={this.props.thinking} />
+                <ThinkingRadioGroup
+                    onChange={this.handleThinking} 
+                    default={this.props.thinking}
+                    resources={this.props.resources.thinking} />
                 <LocationSelect
                     onSelectedState={this.handleSelectedState}
                     onSelectedCity={this.handleSelectedCity}
                     states={this.props.states}
-                    cities={this.props.cities} />
+                    cities={this.props.cities}
+                    resources={this.props.resources.location} />
                 <SalarySlider onChange={this.handleSalaryChange}
+                    resources={this.props.resources.salary} 
                     min={20000} max={250000} step={5000} defaultSalary={50000}
                 />
             </div>

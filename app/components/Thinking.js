@@ -73,7 +73,7 @@ export default class Thinking extends React.Component {
                 <ColiSelection onChange={this.handleSelection}
                     states={this.state.states}
                     cities={this.getCitiesForState(this.state.selectedState.label)}
-                />
+                    resources={this.props.resources}  />
             </Paper>
         );
     }

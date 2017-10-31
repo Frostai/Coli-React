@@ -17,7 +17,6 @@
   "license": "ISC",
   "dependencies": {
     "a-csv": "^2.0.0",
-    "bootstrap-material-design": "^4.0.0-beta.4",
     "chart.js": "^2.7.0",
     "event-stream": "^3.3.4",
     "json-loader": "^0.5.7",

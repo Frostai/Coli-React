@@ -1,6 +1,8 @@
 import React from 'react';
 import Thinking from './Thinking';
 import Paper from 'material-ui/Paper';
+import Button from 'material-ui/FlatButton';
+import ColiIntro from 'material-ui/Card/CardHeader'
 import Comparison from './Comparison';
 import ProductsTable from './ProductsTable';
 import summary from 'csv-loader!./../coli_data/coli_summary.csv'
@@ -9,6 +11,7 @@ export default class Coli extends React.Component {
     constructor(props) {
         super(props);
         this.state = {
+            language: this.props.language.es,
             thinking: 'from-pr',
             salary: 50000,
             index: this.props.index,
@@ -17,14 +20,20 @@ export default class Coli extends React.Component {
         }
         console.log(this.props.index);
         this.handleThinkingChange = this.handleThinkingChange.bind(this);
+        this.handleLanguageButton = this.handleLanguageButton.bind(this);
         this.getProductTableData = this.getProductTableData.bind(this);
     }
 
     // This handler is passed to the Thinking Component as onThinkingChange
     handleThinkingChange(value) {
-        console.log('Coli:');
-        console.log(value);
         this.setState(value);
+    }
+    handleLanguageButton() {
+        console.log("LanguageChange");
+        this.setState({
+            language : (this.state.language.code == "en") ?
+                this.props.language.es : this.props.language.en
+        });
     }
 
     getFromCity() {
@@ -83,6 +92,8 @@ export default class Coli extends React.Component {
     }
 
     render() {
+        let resources = this.state.language.code == "en" ?
+            this.props.resources.en : this.props.resources.es;
         let prodTable = null, comparison = null;
         let fromCity = this.getFromCity();
         let toCity = this.getToCity();
@@ -95,16 +106,22 @@ export default class Coli extends React.Component {
                     salary={this.state.salary}
                     fromCity={fromCity}
                     toCity={toCity}
+                    resources={resources.comparison}
                 />
             )
         }
 
         return (
             <div className={'container'}>
+                <Button label={"English | Espanol"} primary={true} fullWidth={true}
+                    onClick={this.handleLanguageButton} />
+                
+                <Paper zDepth={0}><h3 style={ {"white-space":"pre-line"} }>{resources.intro}</h3></Paper>
                 <Thinking className={'leftContainer'}
                     onChange={this.handleThinkingChange}
                     thinking={this.state.thinking}
-                    locations={this.state.index} />
+                    locations={this.state.index}
+                    resources={resources} />
 
                 {comparison}
                 <Paper className={'productsContainer'}>

@@ -32,7 +32,7 @@ export default class Comparison extends React.Component {
         if (!(fromCity && toCity)) return [];
 
         return {
-            labels: this.props.labels,
+            labels: this.props.resources.labels,
             datasets: [
                 {
                     label: fromCity[3],
@@ -59,14 +59,14 @@ export default class Comparison extends React.Component {
     prepareComparisonData(fromCity, toCity) {
         var comparisons = [];
         for(var i = 5; i <= 10; i++) {
-            comparisons[comparisons.length] = this.formatCompData(fromCity[i], toCity[i], this.props.labels[i-4]);
+            comparisons[comparisons.length] = this.formatCompData(fromCity[i], toCity[i], this.props.resources.labels[i-5]);
         }
         return comparisons;
     }
     formatCompData(fromCity, toCity, labelText) {
         var result = Math.abs( (toCity - fromCity) / fromCity )* 100;
-        var moreOrLess = ( (toCity - fromCity) < 0) ? 'less' : 'more';
-        var label = labelText + ' will cost ';
+        var moreOrLess = ( (toCity - fromCity) < 0) ? this.props.resources.lessText : this.props.resources.moreText;
+        var label = labelText + ': ';
         return (
             <h4>
             {label + result.toLocaleString(undefined, { maximumFractionDigits: 2 }) + '% ' + moreOrLess}
@@ -84,12 +84,11 @@ export default class Comparison extends React.Component {
         };
         return (
             <Paper className={'rightContainer'}>
-                <h3>Salario comparable / Comparable Salary</h3>
-                <h3>$ {this.calculateComparableSalary(this.props.salary)}</h3>
+                <h4>{this.props.resources.salary}${this.calculateComparableSalary(this.props.salary)}</h4>
                 <div className={'chartContainer'}>{bar} </div>
-                <h4>
+                <h5>
                     { this.prepareComparisonData(this.props.fromCity, this.props.toCity) }
-                </h4>
+                </h5>
             </Paper>
         );
     }

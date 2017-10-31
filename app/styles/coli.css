@@ -8,6 +8,7 @@
 
 .leftContainer {
     width: 40%;
+    flex-grow: 1;
     padding: 20px;
 }
 .rightContainer {
@@ -37,7 +38,7 @@
     .rightContainer {
         width: calc(60% - 10px);
         padding: 20px;
-        margin: 10px 0 0 0;        
+        margin: 0 0 0 10px;        
     }
     .productsContainer {
         width: 100%;
