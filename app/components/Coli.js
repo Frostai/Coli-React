@@ -5,7 +5,7 @@ import Button from 'material-ui/FlatButton';
 import ColiIntro from 'material-ui/Card/CardHeader'
 import Comparison from './Comparison';
 import ProductsTable from './ProductsTable';
-import summary from 'csv-loader!./../coli_data/coli_summary.csv'
+import summary from './../coli_data/coli_summary.csv'
 
 export default class Coli extends React.Component {
     constructor(props) {

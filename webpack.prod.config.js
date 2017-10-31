@@ -24,7 +24,7 @@ module.exports = {
                 loader: 'csv-loader',
                 options: {
                     dynamicTyping: true,
-                    header: true,
+                    header: false,
                     skipEmptyLines: true
                 }
             },
