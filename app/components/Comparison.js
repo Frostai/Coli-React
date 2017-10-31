@@ -7,6 +7,7 @@ export default class Comparison extends React.Component {
         super(props);
         this.calculateComparableSalary = this.calculateComparableSalary.bind(this);
         this.prepareChartData = this.prepareChartData.bind(this);
+        this.prepareComparisonData = this.prepareComparisonData.bind(this);
     }
 
 
@@ -23,12 +24,15 @@ export default class Comparison extends React.Component {
         return salary.toLocaleString(undefined, { maximumFractionDigits: 2 });
     }
 
+    // calculate more/less formula
+    // ABS((to-from)/from)
+    // to - from < 0 then less, else more 
+
     prepareChartData(fromCity, toCity) {
         if (!(fromCity && toCity)) return [];
 
         return {
-            labels: ['Composite', 'Grocery', 'Housing', 'Utilities',
-                'Transportation', 'Health', 'Miscellaneous'],
+            labels: this.props.labels,
             datasets: [
                 {
                     label: fromCity[3],
@@ -52,6 +56,24 @@ export default class Comparison extends React.Component {
         };
     }
 
+    prepareComparisonData(fromCity, toCity) {
+        var comparisons = [];
+        for(var i = 5; i <= 10; i++) {
+            comparisons[comparisons.length] = this.formatCompData(fromCity[i], toCity[i], this.props.labels[i-4]);
+        }
+        return comparisons;
+    }
+    formatCompData(fromCity, toCity, labelText) {
+        var result = Math.abs( (toCity - fromCity) / fromCity )* 100;
+        var moreOrLess = ( (toCity - fromCity) < 0) ? 'less' : 'more';
+        var label = labelText + ' will cost ';
+        return (
+            <h4>
+            {label + result.toLocaleString(undefined, { maximumFractionDigits: 2 }) + '% ' + moreOrLess}
+            </h4>
+        );
+    }
+
     render() {
         let bar = null;
         if (this.props.fromCity && this.props.toCity) {
@@ -65,6 +87,9 @@ export default class Comparison extends React.Component {
                 <h3>Salario comparable / Comparable Salary</h3>
                 <h3>$ {this.calculateComparableSalary(this.props.salary)}</h3>
                 <div className={'chartContainer'}>{bar} </div>
+                <h4>
+                    { this.prepareComparisonData(this.props.fromCity, this.props.toCity) }
+                </h4>
             </Paper>
         );
     }

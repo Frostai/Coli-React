@@ -40,7 +40,8 @@
         margin: 10px 0 0 0;        
     }
     .productsContainer {
-        width: 95%;
+        width: 100%;
+        margin: 10px 0 0 0;
     }
 }
 
@@ -58,6 +59,7 @@
         margin: 10px 0 0 0;
     }
     .productsContainer {
-        width: 95%;
+        width: 100%;
+        margin: 10px 0 0 0;        
     }
 }

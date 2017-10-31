@@ -1,0 +1,30 @@
+{
+    "resources": {
+        "en": {
+            "thinking": {
+                "from": "I am thinking of moving from Puerto Rico",
+                "to": "I am thinking of moving to Puerto Rico"
+            },
+            "salary": {
+                "slider": "Currently my salary is: ",
+                "compare": "Comparable Salary"
+            },
+            "categories": [
+                "Groceries","Housing","Utilities","Health","Transportation","Miscellaneous"
+            ]
+        },
+        "es": {
+            "thinking": {
+                "from": "Estoy pensando mudarme desde Puerto Rico",
+                "to": "Estoy pensando mudarme a Puerto Rico"
+            },
+            "salary": {
+                "slider": "Actualmente mi sueldo es: ",
+                "compare": "Salario comparable"
+            },
+            "categories": [
+                "Alimentos","Vivienda","Utilidades","Salud","Transportación","Misceláneos"
+            ]
+        }
+    }
+}

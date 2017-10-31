@@ -91,6 +91,7 @@ export default class Coli extends React.Component {
             );
             comparison = (
                 <Comparison className={'rightContainer'}
+                    labels={['Composite', 'Grocery', 'Housing', 'Utilities', 'Transportation', 'Health', 'Miscellaneous']}
                     salary={this.state.salary}
                     fromCity={fromCity}
                     toCity={toCity}
