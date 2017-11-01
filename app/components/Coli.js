@@ -55,7 +55,7 @@ export default class Coli extends React.Component {
 
     getHeaderNames(from, to, resources) {
         console.log(resources.table);
-        var header = [resources.table.headers[0], from.replace(/([a-z A-z]*) ([A-Z]{2})/g, '$1, $2'), to.replace(/([a-z A-z]*) ([A-Z]{2})/g, '$1, $2'), resources.table.headers[1] ];
+        var header = [resources.table.headers[0], from.replace(/([a-z A-z]*) ([A-Z]{2})/g, '$1, $2'), to.replace(/([a-z A-z]*) ([A-Z]{2})/g, '$1, $2'), resources.table.headers[1]];
         return header;
     }
 
@@ -117,7 +117,7 @@ export default class Coli extends React.Component {
                 <Button label={"English | Espanol"} primary={true} fullWidth={true}
                     onClick={this.handleLanguageButton} />
 
-                <Paper zDepth={0}><h5 style={{ whiteSpace: "pre-line" }}>{resources.intro}</h5></Paper>
+                <Paper zDepth={0} className={'intro'} ><h5>{resources.intro}</h5></Paper>
                 <Thinking className={'leftContainer'}
                     onChange={this.handleThinkingChange}
                     thinking={this.state.thinking}

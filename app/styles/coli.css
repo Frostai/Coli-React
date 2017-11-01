@@ -16,6 +16,10 @@
     padding: 20px;
     margin-left: 10px;
 }
+.intro {
+    white-space: pre-line;
+    width: 100%;
+}
 
 .productsContainer {
     width: 80%;
