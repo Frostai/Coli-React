@@ -71,6 +71,7 @@ export default class Thinking extends React.Component {
         return (
             <Paper className={this.props.className}>
                 <ColiSelection onChange={this.handleSelection}
+                    thinking={this.state.thinking}
                     states={this.state.states}
                     cities={this.getCitiesForState(this.state.selectedState.label)}
                     resources={this.props.resources}  />

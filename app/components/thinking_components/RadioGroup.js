@@ -30,7 +30,7 @@ export default class ThinkingRadioGroup extends React.Component {
     render() {
         return (
             <div>
-                <RadioButtonGroup name="thinking" onChange={this.handleChange}>
+                <RadioButtonGroup name="thinking" valueSelected={this.props.default} onChange={this.handleChange}>
                     <RadioButton
                         value={this.state.thinking.from.value}
                         label={this.props.resources.from}

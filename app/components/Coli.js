@@ -12,7 +12,7 @@ export default class Coli extends React.Component {
         super(props);
         this.state = {
             language: this.props.language.es,
-            thinking: 'from-pr',
+            thinking: 'to-pr',
             salary: 50000,
             index: this.props.index,
             city: null,
