@@ -1,7 +1,13 @@
 {
     "languages": {
-        "en": {"label": "English", "code": "en"},
-        "es": {"label": "Spanish", "code": "es"}
+        "en": {
+            "label": "English",
+            "code": "en"
+        },
+        "es": {
+            "label": "Spanish",
+            "code": "es"
+        }
     },
     "en": {
         "intro": "Welcome to the Puerto Rico Institute of Statistics Cost of Living Index Calculator.\n\n Here we present information to allow a professional to compare the cost of living in Puerto Rico with different places in the United States.",
@@ -24,10 +30,16 @@
             "moreText": "more",
             "lessText": "less",
             "salary": "Comparable Salary is: "
+        },
+        "table": {
+            "headers": ["Products / Services", "United States"],
+            "products": [
+                "T-Bone Steak", "Ground Beef", "Sausage", "Frying Chicken", "Chunk Light Tuna", "Whole Milk", "Eggs", "Margarine", "Parmesan Cheese", "Potatoes", "Bananas", "Lettuce", "Whitebread", "Fresh Orange Juice", "Coffee", "Sugar", "Corn Flakes", "Sweet Peas", "Peaches", "Facial Tissues", "Detergent", "Shortening", "Frozen Meal", "Frozen Corn", "Potato Chips", "Soft Drink", "Apartment Rent", "Home Price", "Total Energy", "Phone", "Tire Balance", "Gasoline", "Optometrist Visit", "Doctor Visit", "Dentist Visit", "Ibuprofen", "Lipitor", "Hamburger", "Pizza", "Fried Chicken", "Haircut", "Beauty Salon", "Toothpaste", "Shampoo", "Dry Cleaning", "Man Dress Shirt", "Boy Jeans", "Women Slacks", "Washer Repair", "Newspaper", "Movie", "Bowling", "Tennis Balls", "Veterinary Services", "Beer", "Wine"
+            ]
         }
     },
     "es": {
-        "intro": "Bienvenidos a la aplicación Índice de Costo de Vida del portal del Instituto de Estadísticas.\n\n Aquí se presenta información que permite comparar el costo de vida de un profesional en Puerto Rico con distintos lugares en los Estados Unidos.",
+        "intro": "Bienvenidos a la calculadora del Índice de Costo de Vida del Instituto de Estadísticas.\n\n Aquí se presenta información que permite comparar el costo de vida de un profesional en Puerto Rico con distintos lugares en los Estados Unidos.",
         "thinking": {
             "from": "Estoy pensando mudarme desde Puerto Rico",
             "to": "Estoy pensando mudarme a Puerto Rico"
@@ -43,11 +55,15 @@
             "labels": [
                 "Alimentos", "Vivienda", "Utilidades", "Salud", "Transportación", "Misceláneos"
             ],
-            "moreText": "mas",
+            "moreText": "más",
             "lessText": "menos",
             "salary": "Salario comparable es: "
+        },
+        "table": {
+            "headers": ["Productos / servicios", "United States"],
+            "products": [
+                "T-Bone Steak", "Carne molida", "Salchicha", "Pollo para freír", "Trozos de atún claro enlatado", "Leche entera", "Huevos", "Margarina", "Queso parmesano", "Papas", "Guineos", "Lechuga", "Pan especial", "Jugo de china", "Café", "Azúcar", "Cereal de hojuelas de maíz", "Guisantes verdes", "Melocotón", "Toallas faciales", "Detergente de lavaplatos", "Aceite de canola", "Comida congelada", "Maíz tierno entero congelado", "Papas fritas", "Refresco", "Alquiler apartamento", "Precio de vivienda", "Energía total", "Teléfono", "Balanceo de gomas", "Gasolina", "Visita a un optómetra", "Visita a un doctor", "Visita a un dentista", "Ibuprofén", "Lipitor", "Hamburger", "Pizza", "Pollo frito", "Recorte de pelo de caballero", "Salón de belleza (Recorte para dama con lavado y secado)", "Pasta dental", "Champú", "Lavado en seco", "Camisa de vestir de hombre", "Mahones de niño", "Pantalón de mujer", "Reparación de electrodoméstico", "Periódico", "Película", "Bowling", "Bolas de tenis", "Servicios veterinaries", "Cerveza", "Vino"
+            ]
         }
-
-
     }
 }

@@ -31,7 +31,7 @@ export default class Coli extends React.Component {
     handleLanguageButton() {
         console.log("LanguageChange");
         this.setState({
-            language : (this.state.language.code == "en") ?
+            language: (this.state.language.code == "en") ?
                 this.props.language.es : this.props.language.en
         });
     }
@@ -53,12 +53,13 @@ export default class Coli extends React.Component {
         }
     }
 
-    getHeaderNames(from, to) {
-        var header = ['Productos y servicios', from, to, 'Estados Unidos'];
+    getHeaderNames(from, to, resources) {
+        console.log(resources.table);
+        var header = [resources.table.headers[0], from.replace(/([a-z A-z]*) ([A-Z]{2})/g, '$1, $2'), to.replace(/([a-z A-z]*) ([A-Z]{2})/g, '$1, $2'), resources.table.headers[1] ];
         return header;
     }
 
-    getProductTableData(from, to) {
+    getProductTableData(from, to, resources) {
         var fromData = [], toData = [];
         for (var i = 1; i < this.props.averagePrices.length; i++) {
             if (from[0] == this.props.averagePrices[i][0]) {
@@ -68,11 +69,11 @@ export default class Coli extends React.Component {
                 toData = this.props.averagePrices[i];
             }
         }
-        var header = this.getHeaderNames(fromData[3], toData[3]);
+        var header = this.getHeaderNames(fromData[3], toData[3], resources);
         var products = [];
         for (var i = 0; i < summary[0].length; i++) {
             products[i] = [
-                summary[0][i],
+                resources.table.products[i],
                 fromData[i + 4],
                 toData[i + 4],
                 summary[1][i]
@@ -98,11 +99,11 @@ export default class Coli extends React.Component {
         let fromCity = this.getFromCity();
         let toCity = this.getToCity();
         if (fromCity && toCity) {
-            prodTable = (<ProductsTable data={this.getProductTableData(fromCity, toCity)} />
+            prodTable = (
+                <ProductsTable data={this.getProductTableData(fromCity, toCity, resources)} />
             );
             comparison = (
                 <Comparison className={'rightContainer'}
-                    labels={['Composite', 'Grocery', 'Housing', 'Utilities', 'Transportation', 'Health', 'Miscellaneous']}
                     salary={this.state.salary}
                     fromCity={fromCity}
                     toCity={toCity}
@@ -115,8 +116,8 @@ export default class Coli extends React.Component {
             <div className={'container'}>
                 <Button label={"English | Espanol"} primary={true} fullWidth={true}
                     onClick={this.handleLanguageButton} />
-                
-                <Paper zDepth={0}><h3 style={ {"white-space":"pre-line"} }>{resources.intro}</h3></Paper>
+
+                <Paper zDepth={0}><h5 style={{ whiteSpace: "pre-line" }}>{resources.intro}</h5></Paper>
                 <Thinking className={'leftContainer'}
                     onChange={this.handleThinkingChange}
                     thinking={this.state.thinking}

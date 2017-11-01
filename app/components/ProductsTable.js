@@ -17,7 +17,7 @@ export default class ProductsTable extends React.Component {
 
     tableHeader(options) {
         var thStyle = {
-            'white-space': 'normal'
+            'whiteSpace': 'normal'
         };
         return options.map((option) => (
             <TableHeaderColumn style={thStyle}>{option}</TableHeaderColumn>
@@ -28,7 +28,7 @@ export default class ProductsTable extends React.Component {
         console.log(options);
         var height = {
             height: '40px',
-            'white-space': 'normal'
+            'whiteSpace': 'normal'
         };
         var padding = {padding: "0 10px 0 20px"};
         return options.map((option) => (

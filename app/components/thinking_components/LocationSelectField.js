@@ -30,7 +30,7 @@ export default class LocationSelectField extends React.Component {
       <MenuItem
         key={option.value}
         value={option.value}
-        primaryText={option.label}
+        primaryText={option.label.replace(/([a-z A-z]*) ([A-Z]{2})/g, '$1, $2')}
       />
     ));
   }
